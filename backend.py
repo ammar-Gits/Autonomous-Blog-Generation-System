@@ -97,7 +97,7 @@ class State(TypedDict):
 llm = ChatGoogleGenerativeAI(
     model="gemini-2.5-flash",
     temperature=0.7,
-    google_api_key="AIzaSyDfxbOWBUJ80UJ5oZ6QF26XHMT59ewBZZk"
+    google_api_key=""
 )
 model = llm  # alias so nodes can use either name
 
